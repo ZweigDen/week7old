@@ -1,0 +1,88 @@
+.bg1{
+    position: relative;
+    height: 864px;
+}
+.bg1::after{
+    position: absolute;
+    content:"";
+    height: 100%;
+    background-image: url("../../images/img1.jpg");
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    top:0;
+}
+.bg{
+    position: relative;
+    min-height: 984px;    
+}
+.bg::after {
+    position: absolute;
+    content:"";
+    height: 864px;
+    background-image: url("../../images/img1.jpg");
+    background-size: cover;
+    background-position: center center;
+    width: 50%;
+    left:50%;
+    top:0;
+}
+
+.bg2{
+    position: relative;
+    height: 960px;
+}
+.bg2::after{
+    position:absolute;
+    content:"";
+    height: 100%;
+    background-image: url("../../images/img2.jpg");
+    background-position: center center;
+    background-size: cover;
+    width: 50%;
+    top:0;
+    z-index: -1;
+}
+.redMore1{
+    position:absolute;
+    top:50%;
+    left:42%;
+}
+
+.bg3{
+    position: relative;
+    height: 960px;
+}
+.bg3::after{
+    position:absolute;
+    content:"";
+    height: 100%;
+    background-image: url("../../images/img3.jpg");
+    background-position: center center;
+    background-size: cover;
+    width: 50%;
+    top:0;
+    left: 50%;
+    z-index: -1;
+}
+.bg3::before{
+    position:absolute;
+    content:"Read More";
+    
+}
+
+.bg4{
+    position: relative;
+    height: 640px;
+}
+.bg4::after{
+    position: absolute;
+    content:"";
+    height: 100%;
+    background-image: url("../../images/img4.jpg");
+    top:0;
+    width: 100%;
+    background-size: cover;
+    background-position: 0 24%;
+    z-index: -1;
+}
